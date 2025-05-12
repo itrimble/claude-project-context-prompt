@@ -32,6 +32,45 @@ The goal is to minimize repetitive explanations and enable Claude to act as a kn
 *(Copy the following into your project's `Claude.md` or similar context document and fill it out)*
 
 ---
+Claude, to quickly re-establish full project context as if from a detailed `Claude.md` (like a previous session's output), I need you to understand the following key information areas. Please confirm, or I can provide details for each:
+
+1.  **Project Core & Status:**
+    * Name, Primary Goal/Description
+    * Context Version/Date (e.g., vYYYY-MM-DD)
+
+2.  **Tech Environment (Crucial: Specify Versions):**
+    * Platform(s) (iOS, Web, Android, etc.)
+    * Languages & Main Frameworks/SDKs
+    * Key Libraries (and purpose)
+    * Database(s), Auth/Payment Systems
+    * Build Tools, IDE, Deployment Targets
+
+3.  **Coding Standards & Architecture:**
+    * Code Style Guide(s) Used
+    * Naming Conventions (brief examples)
+    * Architectural Pattern(s) (MVVM, Clean Arch, etc.)
+    * State Management, Dependency Manager, Testing Strategy
+
+4.  **Codebase Structure:**
+    * Overview of Main Directory Layout
+    * Key Files/Modules & Their Roles (Entry points, Config, Core Logic, Models, Services, UI, Utils - include paths if complex)
+
+5.  **Current Session Context:**
+    * Brief Summary of Last Key Interaction/Problem
+    * My Immediate Goal / What I Need Your Help With Now
+    * Any Specific Questions I Have for You
+
+6.  **Active Issues & Challenges:**
+    * Relevant Known Bugs or Current Technical Hurdles
+
+7.  **Essential Constraints & Preferences:**
+    * Key Project Constraints (Performance, Accessibility, etc.)
+    * Important 3rd-Party Service Details (if any)
+    * My Preferences for your assistance style (if specific)
+
+Goal: Rapidly bring you to full operational knowledge for project `[Your Project Nickname, e.g., NotepadClone2_iOS]`. Please indicate if you need elaboration on any of these points to proceed effectively.
+
+
 
 **I. Project Initialization & Overview**
     A.  `Project Name`: [User to fill: Official name of the project]
